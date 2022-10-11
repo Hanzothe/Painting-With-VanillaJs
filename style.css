@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+#title {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+#color-palette {
+  height: 410px;
+  width: 410px;
+  border: solid 1px;
+  position: relative;
+  top: 66px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.color {
+  height: 50px;
+  width: 50px;
+  border: solid 1px;
+  border-radius: 3px;
+  box-shadow: 3px 4px 0px 0px #e3c3c3;
+}
+
+#color1 {
+  background-color: black;
+}
+
+#button-random-color {
+  position: absolute;
+  top: 222px;
+  box-shadow: 3px 4px 5px 0px #e3c3c3;
+}
