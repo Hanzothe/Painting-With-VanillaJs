@@ -11,7 +11,7 @@ window.onload = function () {
 
     localStorage.setItem("colorPalette", JSON.stringify(toStorage));
 
-    console.log(JSON.parse(localStorage.getItem("colorPalette")));
+    console.log(JSON.parse(localStorage.getItem("colorPalette"))[1]);
 
     if (localStorage.getItem("colorPalette") !== null) {
       console.log("teste");
@@ -21,8 +21,6 @@ window.onload = function () {
     document.getElementById("color3").style.backgroundColor = toStorage[0];
     document.getElementById("color4").style.backgroundColor = toStorage[0];
   };
-
-  setRandomColors();
 
   const button = document.getElementById("button-random-color");
 
